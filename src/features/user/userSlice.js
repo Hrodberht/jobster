@@ -6,7 +6,7 @@ const initialState = {
   user: null,
 };
 
-export const reigsterUser = createAsyncThunk(
+export const registerUser = createAsyncThunk(
   "user/registerUser",
   async (user, thunkAPI) => {
     console.log(`Register User: ${user}`);
